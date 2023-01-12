@@ -60,7 +60,7 @@
           items[oldPrevious].className = itemClassName;
           items[oldNext].className = itemClassName;
   
-x          items[newPrevious].className = itemClassName + " prev";
+          items[newPrevious].className = itemClassName + " prev";
           items[slide].className = itemClassName + " active";
           items[newNext].className = itemClassName + " next";
         }
